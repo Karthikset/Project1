@@ -38,6 +38,6 @@ jobs:
       - name: java version
         run: java -version
       - name: maven version
-        run: maven --version
+        run: mvn -version
       - name: docker version
         run: docker -version 
