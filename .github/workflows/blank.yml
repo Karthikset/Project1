@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      # Runs a set of Packages using the runner Shell
+      - name: java version
+        run: java -version
+      - name: maven version
+        run: maven -version
+      - name: docker version
+        run: docker -version 
