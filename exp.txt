@@ -1,1 +1,1 @@
-echo " Welcome to Project of terraform"
+Echo"Welcome to Project terraform"
